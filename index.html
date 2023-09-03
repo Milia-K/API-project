@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="normalize.css" />
+    <title>List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <h3>Кого или что будем искать?</h3>
+            <form>
+                <label for="categoryt">Выберите:</label>
+                <select id="category" name="category">
+                    <option value="people">Люди</option>
+                    <option value="films">Фильмы</option>
+                    <option value="species">Планеты</option>
+                </select>
+            </form>
+            <div>Введите количество:<input type="number" id="quantity" min="1" max="10"></div>
+            <div><button id="btn">Искать &#10004;</button></div> 
+            <h3>И вот что нашли!</h3>
+            <div id="result"></div>
+            <div id="result_error"></div>    
+            <div><button id="btn_delete">Сброс &#10008;</button></div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

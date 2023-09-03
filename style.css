@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(194, 187, 201);
+    width: 100%;
+    height: 100vh;
+}
+
+.list{
+    background-color: rgb(238, 230, 245);
+    width: 95%;
+    height: 80vh;
+    padding: 2%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    margin: 3% 0 3% 0;
+    border-radius: 5px;
+    border: 1px;
+}
+
+
+#btn{
+    padding: 4px 8px ;
+    background:  rgb(194, 187, 201);
+    border-radius: 5px;
+    align-items: end;
+    position: relative;
+    width: 15%;
+}
+
+.section{
+    padding-bottom: 1%;
+}
+
+h1 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 249, 255);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.list{
+    background-color: rgb(234, 220, 248);
+    width: 80%;
+    height: 80vh;
+    padding: 3%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    margin: 3% 0 3% 0;
+    border-radius: 5px;
+    border: 4px double black;
+}
+
+
+
+.li{
+    padding: 4px 8px ;
+    background: rgb(234, 220, 248);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.btn{
+    padding: 4px 8px ;
+    background: rgb(215, 187, 243);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    width: 15%;
+}
+
+#btn{
+    padding: 4px 8px ;
+    background: rgb(215, 187, 243);
+    border-radius: 5px;
+    align-items: end;
+    position: relative;
+    width: 15%;
+}
+
+#btn_delete{
+    padding: 4px 8px ;
+    background: rgb(215, 187, 243);
+    border-radius: 5px;
+    align-items: end;
+    position: relative;
+    width: 30%;
+}
+
+#result {
+	font-size: 1.3rem;
+    padding-top: 3%;
+}
